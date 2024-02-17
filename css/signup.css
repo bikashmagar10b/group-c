@@ -92,6 +92,10 @@ body{
   }
 }    
 
+.signup h1{
+  color: orangered;
+  padding: 18px;
+}
 
 .signup{
   background-image: url(../images/vertical.avif);
@@ -99,6 +103,21 @@ body{
   height: 700px;
   color: white;
   margin-top: 100px;
+  border-radius: 20px 40px 20px 60px;
+  animation: border 3s infinite;
+}
+
+@keyframes border {
+  0%{
+    border:solid red;
+  }
+  50%
+  {
+    border: solid blue;
+  }
+  100%{
+    border:solid green;
+  }
 }
 
 .signup input{
@@ -107,4 +126,22 @@ body{
   border: none;
   border-radius: 10px;
   margin-top: 10px;
+  animation: borderr 3s infinite;
+}
+
+@keyframes borderr{
+  0%{
+    border-bottom:solid rgb(8, 211, 93);
+  }
+  50%
+  {
+    border-bottom: solid rgb(235, 183, 14);
+  }
+  100%{
+    border-bottom:solid rgb(253, 5, 5);
+  }
+}
+
+.signup level{
+  color: rgb(92, 14, 218);
 }
