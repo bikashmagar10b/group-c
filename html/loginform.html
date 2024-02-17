@@ -35,36 +35,12 @@
     
 
         <form>
-            username:<input type="username"Id="user"><br>
-            password:<input type="password"Id="pass"><br>
+            <font color="green">Username</font><input type="username"Id="user"><br>
+            <font color="green">Password</font><input type="password"Id="pass"><br>
             <input type="button"value="login" onclick="validate()">
             </form>
         
-        <script>
-            function validate(){
-                varA=document.getElementById("user").value
-                varB=document.GetElementById("pass").value
-                if(A==""){
-                    alert('user is empty')
-                    else if(A.length<6)
-                    {
-                        alert('username should be at least 6 characters')
-                    }
-                        else if (A=="nist12345@gmail.com"&&B=="nist@123456")
-                    {
-                alert('successfully logged in')
-                }
-                else if(B=="")
-                {
-                    alert('password is empty')
-                    else
-                    {
-                        alert('invalid')
 
-                    }
-                }
-            
-        </script>
         
         
     
