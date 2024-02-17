@@ -15,14 +15,14 @@ body{
     text-align: center;
 }
 #left-bar{
-    width: 40%;
+    width: 35%;
     margin-top: 14px;
     text-align: center;
 }
 
 #right-bar{
-    background-color: rgb(11, 11, 53);
-    width: 50%;
+    background-color: red;
+    width: 55%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -69,3 +69,36 @@ body{
 }
 
 /* content area */
+
+#search-btn{
+    margin-right: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: orangered;
+    color: white;
+}
+
+#search-box{
+    border: none;
+    padding: 4px;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    width: 50%;
+}
+
+
+.services{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#services{
+    display: flex;
+}
+
+#services li a{
+    color: white;
+    margin-left: 20px ;
+    cursor: pointer;
+}
