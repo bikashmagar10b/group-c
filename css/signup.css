@@ -99,7 +99,7 @@ body{
 
 .signup{
   background-image: url(../images/vertical.avif);
-  width: 50%;
+  width: 500px;
   height: 740px;
   margin-top: 80px;
   border-radius: 20px 40px 20px 60px;
@@ -120,7 +120,7 @@ body{
 }
 
 .signup input{
-  width: 90%;
+  width: 80%;
   padding: 10px;
   border: none;
   border-radius: 10px;
