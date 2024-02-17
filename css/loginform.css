@@ -6,7 +6,64 @@
 }
 
 body{
-    background-color: black;
+    background-color:black;
+
+}
+.login-box{
+    width: 280px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: orangered;
+    
+}
+  #form{
+    background-color:orangered ;
+    margin-top: 10%;
+  }   
+
+
+
+
+
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+
+}
+form{
+    width: 250px;
+    margin-left: 10px;
+}
+form label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+input[type="button"]{
+    width: 100px;
+    height:30px;
+    margin-top: 30px;
+    border: none;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+
 }
 
 #logo{
@@ -60,7 +117,9 @@ body{
     align-items: center;
     margin-right: 70px;
     
+
 }
+
 
 .lists li{
     margin-left: 20px;
@@ -69,6 +128,8 @@ body{
     color: white;
     animation: list 4s ease-in-out infinite;
 }
+
+
 
 @keyframes list{
     0%{
@@ -87,3 +148,4 @@ body{
         color: wheat;
     }
 }
+
