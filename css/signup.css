@@ -92,3 +92,16 @@ body{
   }
 }    
 
+
+.signup{
+  background-image: url(../images/vertical.avif);
+  width: 50%;
+  height: 700px;
+  color: white;
+  margin-top: 100px;
+}
+
+.signup input{
+  width: 90%;
+  padding: 10px;
+}
