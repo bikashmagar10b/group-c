@@ -40,6 +40,8 @@ body{
 {
     color: orangered;
     font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+
 
 
 }
@@ -74,12 +76,13 @@ body{
 .image1{
     width: 100%;
     overflow: hidden;
+    background-image: url(../images/photo1.jpg);
 }
 #photo1{
     width: 100%;
     z-index: -1;
     object-fit: cover;
-    position: fixed;
+    position: relative;
 }
 
 
@@ -88,7 +91,7 @@ body{
     width: 200px;
     height: 200px;
     margin-left: 80%;
-    transform: rotate(-70deg);
+    transform: rotate(-50deg);
     animation: point 2s infinite;
 }
 
@@ -108,25 +111,154 @@ body{
     color: orangered;
     margin-top: -140px;
     margin-left: 14px;
+    animation: list 6s infinite;
+    font-family: "Sofia", sans-serif;
 }
 
 #w2{
     font-size: 50px;
     color: orangered;
-    margin-left: 20%;
+    margin-left: 25%;
+    animation: list 6s infinite;
+    font-family: "Sofia", sans-serif;
 }
 #w3{
-    font-size: 50px;
+    font-size: 55px;
     color: orangered;
-    margin-left: 30%;
+    margin-left: 50%;
+    animation: list 4s infinite;
+    font-family: "Sofia", sans-serif;
+
+
 }
 #w4{
     font-size: 50px;
     color: orangered;
-    margin-left: 40%;
+    margin-left: 66%;
+    animation: list 5s infinite;
+    font-family: "Sofia", sans-serif;
+
 }
 #w5{
     font-size: 50px;
     color: orangered;
-    margin-left: 50%;
+    margin-left: 86%;
+    animation: list 4s infinite;
+    font-family: "Sofia", sans-serif;
+
+}
+
+@keyframes list {
+    0%{
+        color: red;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: blueviolet;
+    }
+}
+
+
+.mainarea{
+    width: 100%;
+    height: 220px;
+    background-color: wheat;
+    display: flex;
+}
+
+.alignleft{
+    /* background-color: blue; */
+    width: 50%;
+    margin-top: 30px;
+}
+
+.alignright{
+    /* background-color: rgb(114, 16, 40); */
+    width: 50%;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.left{
+    /* background-color: blue; */
+    width: 15%;
+}
+
+.left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.middle{
+    /* background-color: aliceblue; */
+    width: 40%;
+
+}
+
+
+
+.middle ul li,h1,span,p{
+    color: white;
+}
+.right{
+    /* background-color: brown; */
+    width: 40%;
+}
+
+#spth{
+    margin-top: 10px;
+}
+#names li{
+    padding: 2px;
+}
+
+
+.followus{
+    justify-content: center;
+    text-align: center;
+}
+.followus a img{ 
+    width: 20px;
+    height: 20px;
+}
+
+#copyright{
+    text-align: center;
+}
+
+#copyright p{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: orangered;
+    font-size: 15px;
+    margin-top: 8px;
+    font-family: "Sofia", sans-serif;
+}
+
+
+.alignleft h1,.alignright h1{
+    color: orangered;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 30px ;
+}
+
+.alignleft p,.alignright p{
+    color: rgb(163, 95, 71);
+    font-family: "Sofia", sans-serif;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.menu-bar{
+    margin-top: -2px;
 }
