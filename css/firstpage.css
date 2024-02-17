@@ -73,7 +73,60 @@ body{
 
 .image1{
     width: 100%;
+    overflow: hidden;
 }
 #photo1{
     width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+}
+
+
+
+#point1{
+    width: 200px;
+    height: 200px;
+    margin-left: 80%;
+    transform: rotate(-70deg);
+    animation: point 2s infinite;
+}
+
+@keyframes point {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#w1{
+    font-size: 50px;
+    color: orangered;
+    margin-top: -140px;
+    margin-left: 14px;
+}
+
+#w2{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 20%;
+}
+#w3{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 30%;
+}
+#w4{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 40%;
+}
+#w5{
+    font-size: 50px;
+    color: orangered;
+    margin-left: 50%;
 }
