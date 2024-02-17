@@ -103,10 +103,10 @@ body{
   height: 740px;
   margin-top: 80px;
   border-radius: 20px 40px 20px 60px;
-  animation: border 1s infinite;
+  animation: borde 3s infinite;
 }
 
-@keyframes border {
+@keyframes borde {
   0%{
     border:solid red;
   }
