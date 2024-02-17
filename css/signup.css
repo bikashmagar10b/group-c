@@ -1,9 +1,109 @@
-<style>
-        body {
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: black;
+}
+
+#logo{
+  width: 10%;
+  margin-top: 16px;
+  text-align: center;
+}
+#left-bar{
+  width: 40%;
+  margin-top: 14px;
+  text-align: center;
+}
+
+#right-bar{
+  background-color: rgb(11, 11, 53);
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.navbar{
+  background-color: rgb(37, 16, 16);
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 100%;
+}
+
+
+#heading
+{
+  color: orangered;
+  font-size: 50px;
+
+
+}
+
+#icon1{
+  margin-right: 15px;
+}
+
+#mainlogo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.lists{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 70px;
+  
+}
+
+.lists li{
+  margin-left: 20px;
+}
+.lists li a{
+  color: white;
+  animation: list 4s ease-in-out infinite;
+}
+
+@keyframes list{
+  0%{
+      color: red;
+  }
+  25%{
+      color: orangered;
+  }
+  50%{
+      color: blue;
+  }
+  75%{
+      color: blueviolet;
+  }
+  100%{
+      color: wheat;
+  }
+}
+       
+       
+       
+       /* samindra ko code yaha batw */
+       
+       
+/*        
+       
+       
+       
+       
+       
+       body {
           font-family: Arial, sans-serif;
-          background-color: #f4f4f4;
-          margin: 0;
-          padding: 0;
+          background-color: rgb(84, 209, 209);
+          margin: 20px;
+          padding: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -11,7 +111,8 @@
         }
     
         form {
-          background-color: #fff;
+          justify-content: center;
+          background-color: #797eb5;
           padding: 20px;
           border-radius: 8px;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,6 +142,8 @@
         }
     
         button:hover {
-          background-color: #45a049;
+          background-color:darkgreen;
         }
-      </style>
+        h2{
+          color:rgb(11, 8, 8);
+        } */
