@@ -170,6 +170,7 @@ body{
 
 #cll{
   text-align: right;
+  display: none;
 }
 
 #sidebar{
