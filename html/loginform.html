@@ -29,49 +29,21 @@
 
     </div>    
 
-
-     
-
-      <center>
-
-
-
-
-    <div class="login-box">
-        <h1>login</h1>
-    
-
-
-    
-    
-    <form align="center">
-
-        
-        <label for="user" style = "color: white;"> Username :</label>
-        <input type="text" id="user"><br>
-        <label for="pass" style = "color: white;">Password:</label>
-        <input type="password" id="pass"><br>
-        <input type="button" value="login" onclick="validate()">
-    </form>
+    <div class="login">
+        <form action="" class="loginform">
+            <br><level>Login In</level><br><br><br>
+            <span>Username</span><br><br>
+            <input type="text" placeholder="Enter your username"><br>
+           <br> <span>Password</span><br><br>
+            <input type="password"><br><br>
+           <br> <button type="submit" id="login-btn">Log In</button>
+           <br><br><a href="">forget password?</a>
+        </form>
     </div>
-     </center>
-    <script>
-        function validate() {
-            var A = document.getElementById("user").value;
-            var B = document.getElementById("pass").value;
-    
-            if (A === "") {
-                alert('Username is empty');
-            } else if (A.length < 6) {
-                alert('Username should be at least 6 characters');
-            } else if (A === "nist12345@gmail.com" && B === "nist@123456") {
-                alert('Successfully logged in');
-            } else if (B === "") {
-                alert('Password is empty');
-            } else {
-                alert('Invalid credentials');
-            }
-        }
-    </script>
+
+
+
+
+
 </body>
 </html>

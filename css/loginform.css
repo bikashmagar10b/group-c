@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color:skyblue;
+  background-image: linear-gradient(to right,rgb(61, 5, 5),rgb(13, 13, 105));
+
+    
 
 }
 .login-box{
@@ -117,45 +119,79 @@ center{
     }
 }
 
+.login{
 
-
-
-
-h1{
-    text-align: center;
-    padding-top: 15px;
-}
-h4{
-    text-align: center;
-
-}
-form{
-    width: 250px;
-    margin-left: 10px;
-}
-form label{
-    display: flex;
-    margin-top: 10px;
-    font-size: 20px;
-}
-form input{
     width: 100%;
-    padding: 7px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-
+    justify-content: center;
+    display: flex;
 }
-input[type="button"]{
-    width: 100px;
-    height:30px;
-    margin-top: 30px;
-    border: none;
 
-}
-p{
+
+.loginform{
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    background-image: url(../images/vertical.avif);
     text-align: center;
-    padding-top: 20px;
+    border-radius: 20px 40px 20px 50px;
+    animation: border 1s infinite;
+}
 
+@keyframes border {
+    0%{
+      border:solid red;
+    }
+    50%
+    {
+      border: solid blue;
+    }
+    100%{
+      border:solid green;
+    }
+  }
+
+
+.loginform level{
+    color: orangered;
+  font-family: "Audiowide", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loginform span{
+    padding: 10px;
+    color: red;
+    font-family:fantasy;
+    font-weight: bold;
+}
+
+.loginform input{
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#login-btn{
+    color: wheat;
+    background-color: orangered;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.10s;
+}
+
+
+#login-btn:hover{
+    background-color: orange;
+    font-size: 17px;
+    color: blue;
+
+}
+
+.loginform a:hover{
+    color: blue;
 }
