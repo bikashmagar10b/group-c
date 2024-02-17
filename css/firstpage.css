@@ -270,16 +270,23 @@ body{
 
 }
 
-.info{
-    color: white;
+#sidebar h1{
+    color: orangered;
+    padding: 6px;
 }
+
+#sidebar h3{
+    color: blanchedalmond;
+    padding: 3px;
+}
+
 
 #cll{
     text-align: right;
 }
 
 #sidebar{
-    background-color: black;
+    background-image: url(../images/vertical.avif);
     width: 300px;
     height: 50vh;
     border: 3px;
