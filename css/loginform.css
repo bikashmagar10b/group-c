@@ -10,12 +10,16 @@ body{
 
 }
 .login-box{
-    width: 280px;
+    width: 380px;
+    margin-top: 10%;
     height: 300px;
     margin: auto;
     border-radius: 3px;
     background-color: orangered;
     
+}
+center{
+    margin-top: 15%;
 }
   #form{
     background-color:orangered ;
