@@ -92,13 +92,32 @@ body{
   }
 }    
 
+.signup h1{
+  color: orangered;
+  padding: 15px;
+}
 
 .signup{
   background-image: url(../images/vertical.avif);
   width: 50%;
-  height: 700px;
+  height: 740px;
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
+  border-radius: 20px 40px 20px 60px;
+  animation: border 3s infinite;
+}
+
+@keyframes border {
+  0%{
+    border:solid red;
+  }
+  50%
+  {
+    border: solid blue;
+  }
+  100%{
+    border:solid green;
+  }
 }
 
 .signup input{
@@ -107,4 +126,44 @@ body{
   border: none;
   border-radius: 10px;
   margin-top: 10px;
+  animation: borderr 3s infinite;
+  font-size: 15px;
+}
+
+@keyframes borderr{
+  0%{
+    border-bottom:solid rgb(8, 211, 93);
+  }
+  50%
+  {
+    border-bottom: solid rgb(235, 183, 14);
+  }
+  100%{
+    border-bottom:solid rgb(253, 5, 5);
+  }
+}
+
+.signup level{
+  color: rgb(231, 222, 245);
+  font-family: "Audiowide", sans-serif;
+  padding: 15px;
+}
+
+#btn1{
+  background-color: rgb(206, 60, 3);
+  color: wheat;
+  border: none;
+  padding: 10px;
+  margin-top: 28px;
+  border-radius: 10px;
+  color: rgb(194, 187, 184);
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.10s;
+}
+
+#btn1:hover{
+  background-color: orange;
+  color: blue;
+  font-size: 17px;
 }
