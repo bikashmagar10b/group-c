@@ -24,24 +24,19 @@
              </ul>
              <img src="../images/menu.png" alt="menu-icon" id="icon1" style="width: 30px; height: 30px;">
         </div>
+
     </div>
-
-
-
-
-
-
-
-    
-
-    
-    <form>
-    <label for="user">Username:</label>
-    <input type="text" id="user" style="background-color: white; color: black;"><br>
-    <label for="pass">Password:</label>
-    <input type="password" id="pass" style="background-color: white; color: black;"><br>
-    <input type="button" value="login" onclick="validate()">
-</form>
+    <div class="login-box" id="form">
+        <h1>login</h1>
+        <form align="middle">
+        
+        <label for="user" style = "color: white;"> Username :</label>
+        <input type="text" id="user"><br><br>
+        <label for="pass" style = "color: white;">Password:</label>
+        <input type="password" id="pass"><br>
+        <input type="button" value="login" onclick="validate()">
+    </form>
+    </div> 
 
     <script>
         function validate() {
@@ -61,6 +56,5 @@
             }
         }
     </script>
-    
 </body>
 </html>
