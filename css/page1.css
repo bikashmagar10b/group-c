@@ -81,6 +81,8 @@ body{
     transition: 0.10s;
 }
 
+
+
 #search-btn:hover{
     background-color: orange;
 }
@@ -106,16 +108,25 @@ body{
 #services li a{
     color: white;
     margin-left: 20px ;
+    font-size: 13px;
     cursor: pointer;
+    font-family: "Sofia", sans-serif;
+    transition: 1s;
+    
 }
 
+#services li a:hover{
+    color: red;
+}
 
 #user,#register{
     color: wheat;
-    margin-right: 10px;
+    margin-right: 19px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+#register{
+    margin-left: 8px;
+}
 #user:hover,#register:hover{
     color: orangered;
 }
