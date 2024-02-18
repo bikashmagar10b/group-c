@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/loginform.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="../js/loginform.js"></script>
 </head>
 <body>
 
@@ -33,10 +34,12 @@
         <form action="" class="loginform">
             <br><level>Login In</level><br><br><br>
             <span>Username</span><br><br>
-            <input type="text" placeholder="Enter your username" required><br>
+            <input type="text" placeholder="Enter your username" required id="username"><br>
            <br> <span>Password</span><br><br>
-            <input type="password" placeholder="Enter your password" required><br><br>
-           <br> <button type="submit" id="login-btn">Log In</button>
+            <input type="password" placeholder="Enter your password" required id="password"><br><br>
+            <button style="border-radius: 10px; padding: 6px; margin-top: -5px; font-weight: bold; color: grey;" onclick="passw()">show password</button><br>
+
+           <br> <button type="submit" id="login-btn" onclick="abc()">Log In</button>
            <br><br><a href="">forget password?</a>
         </form>
     </div>
