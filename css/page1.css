@@ -500,3 +500,13 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+
+#terms{
+    font-size: 18px;
+    transition: 1s;
+}
+
+#terms:hover{
+    color: blue;
+    font-weight: bold;
+}
