@@ -12,8 +12,8 @@ $sql = "CREATE TABLE IF NOT EXISTS groupc (
     phone VARCHAR(15),
     gender ENUM('Male', 'Female', 'Other'),
     address VARCHAR(255),
-    password VARCHAR(255) NOT NULL
-)";
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL)";
 
 // Execute query
 if ($conn->query($sql) === TRUE) {
