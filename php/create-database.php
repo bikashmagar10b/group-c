@@ -1,21 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password);
-// Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
+require 'connection.php';
 
 // Create database
-$sql = "CREATE DATABASE groupC";
-if (mysqli_query($conn, $sql)) {
-  echo "Database created successfully";
+$sql = "CREATE DATABASE IF NOT EXISTS groupcdb";
+if ($conn->query($sql) === TRUE) {
+    echo "Database created successfully";
 } else {
-  echo "Error creating database: " . mysqli_error($conn);
+    echo "Error creating database: " . $conn->error;
 }
-mysqli_close($conn);
+
+// Close connection
+$conn->close();
 ?>
