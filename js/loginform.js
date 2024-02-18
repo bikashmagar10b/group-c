@@ -10,7 +10,7 @@ function abc()
         window.open(datab);
     }
     else{
-        alert("Database Error!");
+        alert("Wrong username or password!!");
     }
 }
 
