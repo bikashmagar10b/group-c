@@ -31,15 +31,15 @@
     </div>    
 
     <div class="login">
-        <form action="" class="loginform">
+        <form action="../php/login.php" method="post" class="loginform">
             <br><level>Login In</level><br><br><br>
             <span>Username</span><br><br>
-            <input type="text" placeholder="Enter your username" required id="username"><br>
+            <input type="text" name="username" placeholder="Enter your username" required id="username"><br>
            <br> <span>Password</span><br><br>
-            <input type="password" placeholder="Enter your password" required id="password"><br><br>
+            <input type="password" name="password" placeholder="Enter your password" required id="password"><br><br>
             <button style="border-radius: 10px; padding: 6px; margin-top: -5px; font-weight: bold; color: grey;" onclick="passw()">show password</button><br>
 
-           <br> <button type="submit" id="login-btn" onclick="abc()">Log In</button>
+           <br> <button type="submit" id="login-btn">Log In</button>
            <br><br><a href="">forget password?</a>
         </form>
     </div>
