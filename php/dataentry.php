@@ -15,8 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     // Insert data into table
-    $sql = "INSERT INTO groupc (firstname, lastname, gender, phone, address, username, password)
-    VALUES ('$firstname', '$lastname', '$gender', '$phone', '$address', '$username', '$password')";
+    $sql = "INSERT INTO groupc (firstname, lastname, phone, gender, address, username, password)
+    VALUES ('$firstname', '$lastname', '$phone', '$gender', '$address', '$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
