@@ -12,3 +12,5 @@ function rootaccess(){
         alert(" Error!!!");
     }
     }
+
+  

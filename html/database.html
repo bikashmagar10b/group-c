@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Information</title>
 </head>
 <body>
-    <h1>here will be our datas of our customers</h1>
+    <h2>User Information</h2>
+    <form>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" value="<?= $firstname ?>"><br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" value="<?= $lastname ?>"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender" value="<?= $gender ?>"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" value="<?= $phone ?>"><br><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" value="<?= $address ?>"><br><br>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value="<?= $username ?>"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" value="<?= $password ?>"><br><br>
+    </form>
 </body>
 </html>

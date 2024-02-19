@@ -37,7 +37,32 @@
            <a href="loginform.html"> <img src="../images/personal-security.png" alt="logo" id="lugo"></a>
             <a href="loginform.html" id="register">Root</a>
             <input type="search" id="search-box" placeholder="Type to search">
-            <button type="submit" id="search-btn">search</button>
+            <button type="submit" id="search-btn" onclick="alg()">search</button>
+            <script>
+                function alg()
+  {
+      let item = document.getElementById('search-box').value;
+      if(item=="pencil")
+      {
+          window.location.href="../html/page1.html";
+      }
+      else if(item=="pen")
+      {
+          window.location.href="../html/page1.html";
+      }
+      else if(item=="copy")
+      {
+          window.location.href="../html/page2.html";
+      }
+      else
+      {
+          let prod = document.getElementById('search-box');
+          prod.value = "product currently not available";
+          prod.style.color="red";
+      }
+  }
+
+          </script>
 
             <img src="../images/user.png" id="logo-user" alt="logo">
             <level id="user">User</level>
