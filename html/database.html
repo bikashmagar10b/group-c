@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Information</title>
+    <title>User Registration</title>
 </head>
 <body>
-    <h2>User Information</h2>
-    <form>
-        <label for="firstname">First Name:</label><br>
-        <input type="text" id="firstname" name="firstname" value="<?= $firstname ?>"><br><br>
-
-        <label for="lastname">Last Name:</label><br>
-        <input type="text" id="lastname" name="lastname" value="<?= $lastname ?>"><br><br>
-
-        <label for="gender">Gender:</label><br>
-        <input type="text" id="gender" name="gender" value="<?= $gender ?>"><br><br>
-
-        <label for="phone">Phone:</label><br>
-        <input type="text" id="phone" name="phone" value="<?= $phone ?>"><br><br>
-
-        <label for="address">Address:</label><br>
-        <input type="text" id="address" name="address" value="<?= $address ?>"><br><br>
-
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" value="<?= $username ?>"><br><br>
-
-        <label for="password">Password:</label><br>
-        <input type="text" id="password" name="password" value="<?= $password ?>"><br><br>
+    <h2>User Registration</h2>
+    <form action="../php/database.php" method="post">
+        First Name: <input type="text" name="firstname" required><br><br>
+        Last Name: <input type="text" name="lastname" required><br><br>
+        Phone: <input type="text" name="phone" required><br><br>
+        Gender: <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female<br><br>
+        Address: <input type="text" name="address" required><br><br>
+        Username: <input type="text" name="username" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
