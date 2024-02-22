@@ -39,7 +39,10 @@
             </tr>
 
  <?php
-include "../php/connection.php";
+
+include "connection.php";
+
+mysqli_select_db($conn, "groupcdb");
 
 $sql = "SELECT * FROM groupc";
 $result = $conn->query($sql);
@@ -57,7 +60,10 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['password'] . "</td>";
         // for editing
 
-        
+        echo "<td><form action='edit.php' method='POST'>";
+        echo "<input type='hidden' name='id' value='" . $row["id"] . "'>";
+        echo "<input type='submit' value='Edit'>";
+        echo "</form></td>";
 
 
         // for deleting 

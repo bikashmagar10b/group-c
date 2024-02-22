@@ -1,5 +1,6 @@
 <?php
 include "connection.php";
+mysqli_select_db($conn, "groupcdb");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $id = $_POST["id"];
