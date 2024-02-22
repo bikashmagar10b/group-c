@@ -67,17 +67,5 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
     </table>
-
-    <script>
-        function editUser(userId) {
-            // Implement edit functionality
-            console.log('Edit user with ID:', userId);
-        }
-
-        function deleteUser(userId) {
-            // Implement delete functionality
-            console.log('Delete user with ID:', userId);
-        }
-    </script>
 </body>
 </html>
