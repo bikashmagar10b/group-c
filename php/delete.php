@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $sql = "DELETE FROM groupc WHERE id = $id";
 
   if ($conn->query($sql) === TRUE) {
-    header("Location: info.php"); // Redirect to index.php after deletion
+    header("Location: info.php"); 
   } else {
     echo "Error deleting user.";
   }
