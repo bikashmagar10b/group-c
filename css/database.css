@@ -53,3 +53,69 @@ body{
     height: 50px;
     border-radius: 50%;
 }
+
+
+#adddata{
+    background-color: rgb(83, 67, 67);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 450px;
+    border-radius: 20px 50px 20px 50px;
+    animation: border 4s infinite;
+}
+
+#adddata span{
+    color: white;
+    font-size: 20px;
+}
+
+#adddata h2{
+    color: orangered;
+    animation: list 3s infinite;
+}
+
+#adddata input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+#submit{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    background-color: orangered;
+    transition: 0.4s;
+}
+#submit:hover{
+    background-color: orange;
+    color: rgb(107, 98, 98);
+}
+
+
+
+@keyframes list {
+    0%{
+        color: red;
+    }
+    50%{
+        color: rgb(141, 12, 23);
+    }
+    100%{
+        color: orangered;
+    }
+}
+@keyframes border {
+    0%{
+      border:solid red;
+    }
+    50%
+    {
+      border: solid blue;
+    }
+    100%{
+      border:solid green;
+    }
+  }

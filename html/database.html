@@ -28,18 +28,22 @@
         </div>
     </div>
     <!-- //user registration// -->
+    <center>
     
-    <h2>User Registration</h2>
-    <form action="../php/database.php" method="post">
-        First Name: <input type="text" name="firstname" required><br><br>
-        Last Name: <input type="text" name="lastname" required><br><br>
-        Phone: <input type="text" name="phone" required><br><br>
-        Gender: <input type="radio" name="gender" value="male" checked> Male
-                <input type="radio" name="gender" value="female"> Female<br><br>
-        Address: <input type="text" name="address" required><br><br>
-        Username: <input type="text" name="username" required><br><br>
-        Password: <input type="password" name="password" required><br><br>
-        <input type="submit" value="Submit">
+    <form action="../php/database.php" method="post" id="adddata">
+        <br>
+        <h2>Add Data to the SQL Database</h2><br>
+        <span>First Name</span> <br><input type="text" name="firstname" placeholder="first name" required><br><br>
+        <span>Last Name</span><br><input type="text" name="lastname" placeholder="last name" required><br><br>
+        <span>Phone</span><br><input type="text" name="phone" placeholder="phone" required><br><br>
+        <span>Gender</span><br>
+        <input type="radio" name="gender"  value="male" checked style="width: 15px; margin-left: -15px;"><font color="white">Male</font><br>
+         <input type="radio" name="gender" value="female" style="width: 15px;"><font color="white">Female</font><br><br>
+        <span>Address</span><br><input type="text" name="address" placeholder="address" required><br><br>
+        <span>Username</span><br><input type="text" name="username" placeholder="username" required><br><br>
+        <span>Password</span><br><input type="password" name="password" placeholder="password" required><br><br>
+        <input type="submit" value="Submit" id="submit">
     </form>
+</center>
 </body>
 </html>
