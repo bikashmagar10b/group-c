@@ -55,14 +55,16 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['address'] . "</td>";
         echo "<td>" . $row['username'] . "</td>";
         echo "<td>" . $row['password'] . "</td>";
-        echo "<td><button onclick='editUser(" . $row['id'] . ")'>Edit</button></td>";
-        echo "<td><button onclick='deleteUser(" . $row['id'] . ")'>Delete</button></td>";
+        echo "<td><button >Edit</button></td>";
+        echo "<td><form action='delete.php' method='POST'>";
+        echo "<input type='hidden' name='id' value='" . $row["id"] . "'>";
+        echo "<input type='submit' value='Delete'>";
+        echo "</form></td>";
         echo "</tr>";
     }
 } else {
     echo "0 results";
 }
-
 // Close connection
 $conn->close();
 ?>
