@@ -87,7 +87,7 @@ font-family: Audiowide, sans-serif;
     <a href="firstpage.html"> <img src="../images/menu.png" alt="menu-icon" id="icon1" style="width: 30px; height: 30px;"></a>
 </div>
 </div>
-
+<!-- code here my friend -->
 
 </body>
 </html>
