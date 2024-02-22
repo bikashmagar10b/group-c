@@ -56,8 +56,8 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['username'] . "</td>";
         echo "<td>" . $row['password'] . "</td>";
         // for editing
-        
 
+        
 
 
         // for deleting 
