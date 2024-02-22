@@ -55,7 +55,12 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['address'] . "</td>";
         echo "<td>" . $row['username'] . "</td>";
         echo "<td>" . $row['password'] . "</td>";
-        echo "<td><button >Edit</button></td>";
+        // for editing
+        
+
+
+
+        // for deleting 
         echo "<td><form action='delete.php' method='POST'>";
         echo "<input type='hidden' name='id' value='" . $row["id"] . "'>";
         echo "<input type='submit' value='Delete'>";
