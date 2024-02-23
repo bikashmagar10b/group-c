@@ -89,6 +89,88 @@ body{
 #hero{
     animation: borde 3s infinite;
 }
+
+/* footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top:20%;
+}
+
+.left{
+    /* background-color: blue; */
+    width: 15%;
+}
+
+.left img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.middle{
+    /* background-color: aliceblue; */
+    width: 40%;
+
+}
+
+
+
+.middle ul li,h1,span,p{
+    color: white;
+}
+.right{
+    /* background-color: brown; */
+    width: 40%;
+}
+
+#spth{
+    margin-top: 10px;
+}
+#names li{
+    padding: 2px;
+}
+
+
+.followus{
+    justify-content: center;
+    text-align: center;
+}
+.followus a img{ 
+    width: 20px;
+    height: 20px;
+}
+
+#copyright{
+    text-align: center;
+}
+
+#copyright p{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: orangered;
+    font-size: 15px;
+    margin-top: 8px;
+    font-family: "Sofia", sans-serif;
+}
+
+
+.alignleft h1,.alignright h1{
+    color: orangered;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 30px ;
+}
+
+.alignleft p,.alignright p{
+
+    color: rgb(163, 95, 71);
+    font-family: "Sofia", sans-serif;
+    margin-left: 40px;
+    padding: 10px;
+}
     </style>
 </head>
 <body>
@@ -117,6 +199,7 @@ font-family: Audiowide, sans-serif;
 </div>
 </div>
 
+<!-- main code -->
 
 <section style="margin: 50px 0;">
         <div class="container">
@@ -181,7 +264,47 @@ font-family: Audiowide, sans-serif;
         </div>
     </section>
 
+<!-- up to here  -->
+<!-- <footer></footer> -->
+<footer>
+<div class="footer">
 
+<div class="left">
+    <img src="../images/mainlogo.jpg" alt="">
+</div>
+
+<div class="middle">
+    <h1 style="color: orangered;">Our Team</h1>
+    <ul id="names">
+        <li>Rashbin Rijal</li>
+        <li>Samir Devkota</li>
+        <li>Bikash Magar</li>
+        <li>Pramshu Adhikari</li>
+        <li>Aayusha Shrestha</li>
+    </ul>
+</div>
+
+<div class="right">
+    <h1 style="color: orangered;">Available In</h1>
+    <span>Kathmandu,Nepal</span><br>
+    <p>Contact Us: 9761688767</p>
+    <span>paperwork-group-c@gmail.com</span>
+    <h3 id="spth" style="color: orangered;">Special Thanks</h3>
+    <p>National School of Sciences [Department of Computer Science]</p>
+</div>
+
+</div>
+<div class="followus" style="background-color: black;">
+<a href=""><img src="../images/youtube.png" alt=""></a>
+<a href=""><img src="../images/instagram.png" alt=""></a>
+<a href=""><img src="../images/linkedin.png" alt=""></a>
+<a href=""><img src="../images/tik-tok.png" alt=""></a>
+<a href=""><img src="../images/facebook.png" alt=""></a>
+</div>
+<div id="copyright" style="background-color: black; margin-top: -10px;">
+<p>@copyright-2024_paperwork-group-c</p>
+</div>
+</footer>
 
 </body>
 </html>
