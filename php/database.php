@@ -19,8 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$firstname', '$lastname', '$phone', '$gender', '$address', '$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-        // header("Location: records.php");
+        header("Location: info.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

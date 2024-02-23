@@ -5,7 +5,7 @@
     $id = $_GET["id"];
     $query = "DELETE FROM groupc WHERE id = '$id'";
     if (mysqli_query($conn, $query)) {
-        header("location: records.php");
+        header("location: info.php");
     } else {
          echo "Something went wrong. Please try again later.";
     }
