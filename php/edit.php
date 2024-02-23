@@ -142,7 +142,7 @@ font-family: Audiowide, sans-serif;
 </div>
 
 <div id="right-bar">
-   <a href="page1.html" style="margin-right: 10%;"><img src="../images/basket.png" alt="basket" style="
+   <a href="../html/page1.html" style="margin-right: 10%;"><img src="../images/basket.png" alt="basket" style="
         width: 50px;
         height: 50px;
         ">
