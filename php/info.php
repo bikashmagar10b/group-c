@@ -69,6 +69,9 @@ body{
     padding:10px;
     text-align:center;
 }
+.container{
+    margin-top:-50px;
+}
     </style>
 </head>
 <body>
@@ -88,7 +91,7 @@ font-family: Audiowide, sans-serif;
 </div>
 
 <div id="right-bar">
-   <a href="page1.html" style="margin-right: 10%;"><img src="../images/basket.png" alt="basket" style="
+   <a href="../html/page1.html" style="margin-right: 10%;"><img src="../images/basket.png" alt="basket" style="
         width: 50px;
         height: 50px;
         ">
@@ -97,7 +100,6 @@ font-family: Audiowide, sans-serif;
 </div>
 </div>
 
-    <h1 style="text-align:center;margin-top:10px;">No of Users in Paperwork Database</h1>
 
 <section style="margin: 50px 0;">
         <div class="container">
