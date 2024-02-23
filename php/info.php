@@ -63,6 +63,19 @@ body{
 .table1{
     background-color:white;
     width: 100%;
+    animation: borde 3s infinite;
+}
+@keyframes borde {
+  0%{
+    border:solid red;
+  }
+  50%
+  {
+    border: solid blue;
+  }
+  100%{
+    border:solid green;
+  }
 }
 .table1 td{
     background-color: grey;
@@ -71,6 +84,10 @@ body{
 }
 .container{
     margin-top:-50px;
+}
+
+#hero{
+    animation: borde 3s infinite;
 }
     </style>
 </head>
@@ -157,7 +174,7 @@ font-family: Audiowide, sans-serif;
                 </tbody>
               </table>
               <center>
-              <a href="../html/database.html"><button style="cursor:pointer; padding:10px;
+              <a href="../html/database.html"><button id="hero" style="cursor:pointer; padding:10px;
               width:80px;border-radius:150px;font-size:20px; margin-top:60px;background-color:orangered;color:white;
               ">Add</button></a>
               </center>
