@@ -14,11 +14,12 @@ mysqli_select_db($conn, "groupcdb");
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        $sql = "UPDATE `groupc` SET `firstname`='$firstname',`lastname`='$lastname',`phone`='$phone',`gender`='$gender',`address`='$address',`username`='$username',`password`='$password' WHERE `id`='$Id'";
+        $sql = "UPDATE `groupc` SET `firstname`='$firstname',`lastname`='$lastname',
+        `phone`='$phone',`gender`='$gender',`address`='$address',`username`='$username',`password`='$password' WHERE `id`='$Id'";
         $result = $conn->query($sql);
         if ($result == TRUE) {
             echo "Record updated successfully.";
-            header('Location: #');
+            header('Location: info.php');
         }else{
             echo "Error:" . $sql . "<br>" . $conn->error;
         }
