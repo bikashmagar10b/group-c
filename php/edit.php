@@ -44,7 +44,7 @@ if (isset($_GET['id'])) {
     ?>
 
 
-        <h2>Student details Update Form</h2>
+        <h2>Users details Update Form</h2>
         <form action="" method="POST">
           <fieldset>
             <legend>Personal information:</legend>
