@@ -145,7 +145,7 @@ font-family: Audiowide, sans-serif;
                         <td><?php echo $username; ?></td>
                         <td><?php echo $password; ?></td>
 
-                        <td><a href="edit.php?id=<?php echo $Id; ?>" class="btn btn-primary">Edit</a></td>
+                        <td><a href="edit.php?id=<?php echo $Id;?>" class="btn btn-primary">Edit</a></td>
                         <td><a href="delete.php?id=<?php echo $Id; ?>" class="btn btn-danger">Delete</a></td>
                     </tr>
                         
