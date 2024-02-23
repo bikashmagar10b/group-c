@@ -14,10 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     $sql = "INSERT INTO groupc (firstname, lastname, phone, gender, address, username, password) 
-            VALUES ('$firstname', '$lastname', '$phone', '$gender', '$address', '$username', '$hashed_password')";
+            VALUES ('$firstname', '$lastname', '$phone', '$gender', '$address', '$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";

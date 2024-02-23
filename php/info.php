@@ -65,7 +65,6 @@ if ($result->num_rows > 0) {
         echo "<input type='submit' value='Edit'>";
         echo "</form></td>";
 
-
         // for deleting 
         echo "<td><form action='delete.php' method='POST'>";
         echo "<input type='hidden' name='id' value='" . $row["id"] . "'>";
