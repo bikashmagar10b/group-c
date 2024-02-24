@@ -220,7 +220,7 @@ if (isset($_GET['id'])) {
 
     <?php
     } else{
-        header('Location: view-student.php');
+        header('Location: info.php');
     }
 }
 ?>
